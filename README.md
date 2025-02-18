@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-
-# Données fictives pour simuler un compte bancaire
 user_data = {
     'nom': 'Thomas Rousseau',
     'solde': 50000,
